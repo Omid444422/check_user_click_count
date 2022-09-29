@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>click user</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <link rel="shortcut icon" href="./content/img/favicon.png" type="image/x-icon">
+
+        <!-- animation link -->
+        <link rel="stylesheet" href="../node_modules/animation.css/main.css">
+
+        <!-- bootstrap link -->
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+        <!-- my css link -->
+        <link rel="stylesheet" href="./content/css/style.css">
+    </head>
+    <body>
+    
+        <main class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h1></h1>
+                    <span id="counter">click count: 0</span>
+                    <button id="btn_user_click" class="btn btn-outline-success w-100">click</button>
+                    <br>
+                    <br>
+                    <span id="timer_count" class="alert alert-success p-2 m-2">time: 0</span>
+                    <hr>
+                    <label class="form-label" for="txt_timer">timer count:</label>
+                    <select name="txt_timer" id="txt_timer" class="form-control">
+                        <option selected value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="30">30</option>
+                    </select>
+                    <br>
+                    <button id="btn_reset" class="btn btn-primary">reset</button>
+                </div>
+            </div>
+        </main>
+
+
+
+        <!-- bootstrap bundel scripts -->
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+        <!-- action script -->
+        <script src="./content/js/action.js"></script>
+
+    </body>
+</html>

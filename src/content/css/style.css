@@ -1,0 +1,22 @@
+body {
+    background: darkcyan;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+
+    margin-top: 10vh;
+}
+
+div .col-6 {
+    padding: 5%;
+    background: whitesmoke;
+    border-radius: 25px;
+}
+
+#btn_user_click {
+    height: 75px;
+}
